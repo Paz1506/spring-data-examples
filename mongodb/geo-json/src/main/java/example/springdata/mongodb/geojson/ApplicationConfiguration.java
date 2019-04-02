@@ -50,7 +50,7 @@ public class ApplicationConfiguration {
 		mapper.configure(FAIL_ON_UNKNOWN_PROPERTIES, false);
 
 		Jackson2RepositoryPopulatorFactoryBean factoryBean = new Jackson2RepositoryPopulatorFactoryBean();
-		factoryBean.setResources(new Resource[] { new ClassPathResource("starbucks-in-nyc.json") });
+		factoryBean.setResources(new Resource[] { new ClassPathResource("starbucks-in-nyc.json"), new ClassPathResource("buildings.json")  });
 		factoryBean.setMapper(mapper);
 
 		return factoryBean;

@@ -1,0 +1,32 @@
+[
+  {
+    "_class":"example.springdata.mongodb.geojson.Building",
+    "id":"16628",
+    "name":"build49H",
+    "location" : { "latitude":48.398062, "longitude":135.112939 }
+  },
+  {
+    "_class":"example.springdata.mongodb.geojson.Building",
+    "id":"16629",
+    "name":"build43E",
+    "location" : { "latitude":48.396224, "longitude":135.112982 }
+  },
+  {
+    "_class":"example.springdata.mongodb.geojson.Building",
+    "id":"16627",
+    "name":"build48O",
+    "location" : { "latitude":48.397670, "longitude":135.115557 }
+  },
+  {
+    "_class":"example.springdata.mongodb.geojson.Building",
+    "id":"16696",
+    "name":"build51B",
+    "location" : { "latitude":48.398753, "longitude":135.111791 }
+  },
+  {
+    "_class":"example.springdata.mongodb.geojson.Building",
+    "id":"16688",
+    "name":"buildNAU",
+    "location" : { "latitude":48.396666, "longitude":135.108186 }
+  }
+]
